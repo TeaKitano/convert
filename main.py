@@ -5,7 +5,9 @@ def output(l):
     for i in l:
         for j in i:
             html.append(j+"\n")
-    
+    html.append("  </tbody>\n")        
+    html.append("</table>\n")
+    html.append("</table>\n")
     html.append("</div>\n")
     html.append("<br>\n")
     html.append("<!--分析記事-->\n")
