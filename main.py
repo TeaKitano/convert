@@ -9,7 +9,6 @@ def output(l):
     html.append("</table>\n")
     html.append("</table>\n")
     html.append("</div>\n")
-    html.append("<br>\n")
     html.append("<!--分析記事-->\n")
     return html
 
